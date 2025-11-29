@@ -35,8 +35,10 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 3. Open a separate browser tab/window and go to the **End User Portal**:  
    `http://localhost/osTicket`
 
-📸 *Screenshot: Admin/Analyst login page (`/scp/login.php`)*  
-📸 *Screenshot: End User Portal home page (`/osTicket`)*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/93181b20-d4da-45a6-9c6b-e0a694ee9fa1" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/b23745a3-d41c-449f-a676-99f36fb9af85" />
+
 
 
 ### 2. End User Creates Ticket #1 – Online/Mobile Banking Down
