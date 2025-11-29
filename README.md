@@ -159,59 +159,13 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 
 
-### 10. Escalate Tickets – Apply Sev-A (SysAdmins Last)
-
-1. For all existing tickets, adjust properties so they are escalated to **Sev-A** where required.
-2. Specifically, set the ticket associated with **SysAdmins** to **Sev-A (1 hour, 24/7)** **last**.
-3. Observe how changing SLA or department to SysAdmins affects visibility or accessibility (for example, john may lose access if he does not have rights to SysAdmins).
-
-📸 *Screenshot: List of tickets while updating SLAs (Sev-A/Sev-B)*  
-📸 *Screenshot: Ticket associated with SysAdmins after escalation*  
-📸 *Screenshot: Inaccessible ticket view or error for john (if applicable)*
-
-
-### 11. Regain Access by Granting View Rights to SysAdmins
-
-1. Log in as an admin with configuration access (e.g., **jane**).
-2. Go to the **Admin Panel → Agents → Departments → SysAdmins**.
-3. Adjust permissions to grant yourself (or the relevant agent) **view access** to the **SysAdmins** department.
-4. Save changes.
-
-📸 *Screenshot: SysAdmins department permissions configuration*  
-📸 *Screenshot: Agent/role assignment showing View access for SysAdmins*
-
-
-### 12. Observe the Escalated Ticket Again as Agent
-
-1. Switch back to the **Agent Panel** as the agent who now has SysAdmins view access.
-2. Locate and open the previously escalated ticket.
-3. Observe that:
-   - You can now **see** the ticket.
-   - In many cases, escalated tickets might be **restricted from further changes** (read-only / limited edits depending on configuration).
-
-📸 *Screenshot: Escalated ticket now visible to agent*  
-📸 *Screenshot: Ticket showing limited or read-only controls (if applicable)*
-
-
-### 13. Solve All Remaining Tickets
-
-1. For all open tickets:
-   - Ensure appropriate SLA, Department, and Assignment are set.
-   - Add final notes or resolution comments.
-   - Set tickets to **Resolved/Closed** status.
-2. Confirm there are no unresolved tickets left.
-
-📸 *Screenshot: Ticket list showing all tickets in a resolved/closed state*
-
-
-### 14. Note on Email Notifications (Ticket Updates)
+### 10. Note on Email Notifications (Ticket Updates)
 
 > In most ticketing systems (including osTicket if configured with email), each ticket update can send an **email notification** to the end user. Users can reply to that email and their response is added to the ticket automatically.
 
-📸 *Screenshot (optional): Email settings section in Admin Panel (if configured)*
 
 
-### 15. Real-World Ticket Intake (Conceptual Step)
+### 11. Real-World Ticket Intake (Conceptual Step)
 
 > In real environments, tickets may be created via:
 > - Phone calls  
@@ -222,14 +176,12 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 >
 > Even if you fix something on the spot, it is best practice to **create tickets for everything you do** for tracking and metrics.
 
-(You can optionally add notes or diagrams here instead of screenshots.)
 
 
-### 16. Practice & Repetition
+### 12. Practice & Repetition
 
 > To build confidence and technical intuition:
-> - Repeat this lab several times.
 > - Practice creating, modifying, escalating, and resolving tickets.
 > - Experiment with different SLAs, departments, and permissions.
 
-📸 *Screenshot (optional): Re-doing the lab or summary view of multiple test tickets*
+
