@@ -48,13 +48,12 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
    - **Issue**: "Entire mobile/online banking system is down"
 3. Submit the ticket.
 
-📸 *Screenshot: New Ticket form filled out for mobile/online banking outage*  
-📸 *Screenshot: Ticket confirmation page for Ticket #1*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/5b25d2de-f155-490b-91f1-5a9a9378a130" />
 
 
 ### 3. Agent (john) Views Ticket #1 Properties
 
-1. Log in (or switch) to **Agent Panel** as **john**.
+1. Log in (or switch) to **Agent Panel**.
 2. Go to **Tickets** and open the ticket about the mobile/online banking outage.
 3. Observe and note the ticket properties:
    - Priority  
@@ -62,7 +61,8 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
    - SLA  
    - Assigned To  
 
-📸 *Screenshot: Ticket #1 details as viewed by john (before changes)*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/abfde9c8-fdf0-432b-b974-7f27b3759ae0" />
+
 
 
 ### 4. Agent (john) Sets Ticket #1 Properties
@@ -72,23 +72,10 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
    - Set **Department** to **Online Banking Department**.
 2. Save or update the ticket.
 
-📸 *Screenshot: Editing Ticket #1 to set SLA = Sev-A and Department = Online Banking*  
-📸 *Screenshot: Updated Ticket #1 properties after saving*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/f8b31786-f5a3-4286-b6a3-bf725ded2dfa" />
 
 
-### 5. Attempt to View Ticket #1 Again as john
-
-1. As **john**, navigate back to the **Tickets** list.
-2. Try to view Ticket #1 again.
-3. Observe whether john can:
-   - Still see the ticket.
-   - Still change its properties or if access is restricted.
-
-📸 *Screenshot: Tickets list from john’s perspective*  
-📸 *Screenshot: Any error or restricted view for Ticket #1 as john (if applicable)*
-
-
-### 6. Work Ticket #1 to Completion as jane
+### 5. Work Ticket #1 to Completion as jane
 
 1. Log in or switch to **Agent Panel** as **jane** (or the admin with full access).
 2. Open Ticket #1.
@@ -96,21 +83,25 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 4. Change the ticket status to **Resolved/Closed** (or equivalent).
 5. Save the ticket.
 
-📸 *Screenshot: Ticket #1 being worked on by jane*  
-📸 *Screenshot: Ticket #1 in a completed/closed state*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/eb49ad3d-817c-4153-818a-fc62a4a5ae48" />
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/8ab7136c-1481-4b4f-8cb1-b78d89534a76" />
 
 
-### 7. End User Creates Ticket #2 – Adobe Upgrade/Broken
+
+
+### 6. End User Creates Ticket #2 – Adobe Upgrade/Broken
 
 1. In the **End User Portal**, create another ticket:
    - **Issue**: "Accounting department needs Adobe upgrade, broken"
 2. Submit the ticket.
 
-📸 *Screenshot: New Ticket form for Adobe upgrade issue (Ticket #2)*  
-📸 *Screenshot: Ticket #2 confirmation page*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/efaa8bfe-727a-4af7-88e5-5cfd52bd133e" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/9ddd2816-ac1a-48a0-8508-31f9de470b7a" />
 
 
-### 8. Agent (john) Sets Ticket #2 Properties & Completes
+
+### 7. Agent (john) Sets Ticket #2 Properties & Completes
 
 1. As **john**, go to **Tickets** and open Ticket #2.
 2. Observe its initial properties:
@@ -119,28 +110,33 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
    - SLA  
    - Assigned To  
 3. Update Ticket #2:
-   - **SLA**: Set to **Sev-B (4 hours, 24/7)**.
-   - **Department**: Set to **Support**.
+   - **SLA**: Set to **Sev-C (8 hours, Business Hours)**.
+   - **Assigned To**: Set to **John Doe**.
 4. Work the ticket to completion:
    - Add responses/notes.
    - Mark the ticket **Resolved/Closed**.
 
-📸 *Screenshot: Ticket #2 before property changes*  
-📸 *Screenshot: Ticket #2 after setting SLA/Department*  
-📸 *Screenshot: Ticket #2 in completed/closed state*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/c10da986-5f45-45a1-8a8c-d33b41bd5f08" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/fdbe3939-3b90-415b-93e3-64b056ecc305" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/cb474e9e-8f19-4634-a23a-389ad0075b4a" />
 
 
-### 9. End User Creates Ticket #3 – CFO Laptop Won’t Turn On
+
+### 8. End User Creates Ticket #3 – CFO Laptop Won’t Turn On
 
 1. In the **End User Portal**, create a third ticket:
    - **Issue**: "CFO’s laptop will no longer turn on"
 2. Submit the ticket.
 
-📸 *Screenshot: New Ticket form for CFO laptop issue (Ticket #3)*  
-📸 *Screenshot: Ticket #3 confirmation page*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/03fd231c-25f3-464b-afb4-56fe5949e2cf" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/07e918eb-2a09-4aaf-b511-cda082d53396" />
 
 
-### 10. Agent (john) Sets Ticket #3 Properties & Completes
+
+### 9. Agent (john) Sets Ticket #3 Properties & Completes
 
 1. As **john**, go to **Tickets** and open Ticket #3.
 2. Observe its properties:
@@ -155,12 +151,15 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
    - Add responses.
    - Mark as **Resolved/Closed**.
 
-📸 *Screenshot: Ticket #3 before changes*  
-📸 *Screenshot: Ticket #3 after setting SLA/Department*  
-📸 *Screenshot: Ticket #3 in a completed/closed state*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/3224b616-13c6-4939-b496-515afd51517c" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/99678cba-48b0-4e7e-97ca-e63f7cbcbf3c" />
+ 
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/ba240345-af38-4fca-a295-71e4d33a20b8" />
 
 
-### 11. Escalate Tickets – Apply Sev-A (SysAdmins Last)
+
+### 10. Escalate Tickets – Apply Sev-A (SysAdmins Last)
 
 1. For all existing tickets, adjust properties so they are escalated to **Sev-A** where required.
 2. Specifically, set the ticket associated with **SysAdmins** to **Sev-A (1 hour, 24/7)** **last**.
@@ -171,7 +170,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 📸 *Screenshot: Inaccessible ticket view or error for john (if applicable)*
 
 
-### 12. Regain Access by Granting View Rights to SysAdmins
+### 11. Regain Access by Granting View Rights to SysAdmins
 
 1. Log in as an admin with configuration access (e.g., **jane**).
 2. Go to the **Admin Panel → Agents → Departments → SysAdmins**.
@@ -182,7 +181,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 📸 *Screenshot: Agent/role assignment showing View access for SysAdmins*
 
 
-### 13. Observe the Escalated Ticket Again as Agent
+### 12. Observe the Escalated Ticket Again as Agent
 
 1. Switch back to the **Agent Panel** as the agent who now has SysAdmins view access.
 2. Locate and open the previously escalated ticket.
@@ -194,7 +193,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 📸 *Screenshot: Ticket showing limited or read-only controls (if applicable)*
 
 
-### 14. Solve All Remaining Tickets
+### 13. Solve All Remaining Tickets
 
 1. For all open tickets:
    - Ensure appropriate SLA, Department, and Assignment are set.
@@ -205,14 +204,14 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 📸 *Screenshot: Ticket list showing all tickets in a resolved/closed state*
 
 
-### 15. Note on Email Notifications (Ticket Updates)
+### 14. Note on Email Notifications (Ticket Updates)
 
 > In most ticketing systems (including osTicket if configured with email), each ticket update can send an **email notification** to the end user. Users can reply to that email and their response is added to the ticket automatically.
 
 📸 *Screenshot (optional): Email settings section in Admin Panel (if configured)*
 
 
-### 16. Real-World Ticket Intake (Conceptual Step)
+### 15. Real-World Ticket Intake (Conceptual Step)
 
 > In real environments, tickets may be created via:
 > - Phone calls  
@@ -226,7 +225,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 (You can optionally add notes or diagrams here instead of screenshots.)
 
 
-### 17. Practice & Repetition
+### 16. Practice & Repetition
 
 > To build confidence and technical intuition:
 > - Repeat this lab several times.
